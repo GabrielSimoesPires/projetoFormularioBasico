@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Garante que o corpo da página ocupa pelo menos a altura da viewport */
+    margin: 0;
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-area {
+    flex: 1;
+}
+
+#formulario {
+    background-color: white;
+    border-radius: 15px;
+}
+
+#formulario h3 {
+    font-size: 40px;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    background-color: #eaeaea;
+    outline: none;
+    border: none;
+    width: 260px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+}
+
+.input-group {
+    display: table;
+    width: 100%;
+    margin: 10px 0;
+}
+
+span {
+    display: table-cell;
+    color: white;
+}
+
+span {
+    display: table-cell;
+    padding: 0 2px;
+    background: #cccccc;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+}
+
+button {
+    background-color: mediumseagreen;
+    width: 290px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+/* Footer */
+#copy-area {
+    margin-top: 70px;
+    background-color: #00BFFF;
+    text-align: center;
+}
+
+#copy-area p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+#copy-area a {
+    text-decoration: none;
+    color: white;
+}
